@@ -7,7 +7,7 @@ module.exports = {
       host: 'seu-host-do-banco-de-dados',
       user: 'seu-usuário-do-banco-de-dados',
       password: 'sua-senha-do-banco-de-dados',
-      database: 'sua-base-dados'
+      database: 'sua-base-de-dados'
     }
   }
 }

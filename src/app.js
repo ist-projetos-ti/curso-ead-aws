@@ -4,7 +4,7 @@ const awsIot = require('aws-iot-device-sdk')
 const controller = require ('./controllers/controller')
 
 const device = awsIot.device({
-    keyPath: 'seu-certificado.key',
+    keyPath: 'sua-chave-privada.key',
    certPath: 'seu-certificado.pem',
      caPath: 'rootCA.pem',
    clientId: 'seu-nome-de-iot',
