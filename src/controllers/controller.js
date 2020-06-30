@@ -20,7 +20,7 @@ module.exports = {
 
     async list (req,res){
         try{
-         const results = await knex ('nome-tabela-banco-de-dados')
+         const results = await knex.from('nome-tabela-banco-de-dados').orderBy("id", "desc").limit(1)
          return res.json(results) 
             }
             catch(error){
